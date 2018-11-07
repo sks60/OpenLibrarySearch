@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/bookCover"
+                android:src="@color/colorPrimary"
+                android:layout_margin="@dimen/nav_header_vertical_spacing"/>
+
+            <ImageButton
+                android:id="@+id/favouriteButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_margin="@dimen/nav_header_vertical_spacing"
+                android:background="@drawable/not_favourite" />
+        </FrameLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

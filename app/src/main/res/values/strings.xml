@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Open Library API</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="describe">Welcome!\nPlease enter a serach term.\n(E.g. Grisham)\n\n</string>
+    <string name="enter_text">Title of Book/Author Name</string>
+    <string name="search">Search</string>
+    <string name="api_1">https://openlibrary.org/api/books?bibkeys=ISBN:</string>
+    <string name="api_2"><![CDATA[&jscmd=details&format=json]]></string>
+    <string name="api_1_1">https://openlibrary.org/api/books?bibkeys=ISBN:</string>
+    <string name="api_1_2"><![CDATA[&jscmd=details&format=json]]></string>
+</resources>
